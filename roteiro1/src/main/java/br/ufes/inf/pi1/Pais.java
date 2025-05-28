@@ -12,12 +12,8 @@ public class Pais {
     public String getNome() {
         return nome;
     }
-
+    
     public Double getExpecVida() {
         return expec_vida;
-    }
-    
-    public int compareTo(Pais outro) {
-        return this.expec_vida.compareTo(outro.expec_vida);
     }
 }
